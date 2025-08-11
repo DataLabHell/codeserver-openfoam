@@ -68,7 +68,7 @@ When used as a Kubeflow Notebook image:
 
 Example in Kubeflow Notebook settings:
 
-<img src="kubeflow-notebooks.png" alt="Kubeflow Notebooks" width="600"/>
+<img width="600" alt="kubeflow" src="https://github.com/user-attachments/assets/d66d21e7-6ae5-472c-aa83-76cabf04da00" />
 
 Also mount the default workspace volume under the path `/home/jovyan`.
 
