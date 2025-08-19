@@ -38,7 +38,7 @@ RUN chgrp -R 0 /opt && chmod -R g=u /opt
 # package source of openfoam is not correctly setup, so ignore errors
 RUN apt-get update || true
 RUN apt-get install -y --no-install-recommends \
-  git htop nano vim
+  git htop nano vim curl telnet
 
 USER ${NB_UID}
 
